@@ -7,7 +7,7 @@
 ===================================================== test session starts ======================================================
 platform linux -- Python 3.8.2, pytest-5.4.3, py-1.9.0, pluggy-0.13.1 -- /home/a1t20v21/.pyenv/tddpython/bin/python3
 cachedir: .pytest_cache
-rootdir: /home/a1t20v21/workspace/tdd_python/summary_pytest
+rootdir: /home/a1t20v21/workspace/tdd_python/notes_pytest
 collected 2 items                                                                                                              
 
 test_xunit_class.py::TestClass::test1 
@@ -25,8 +25,5 @@ PASSED
 Tearing down test2
 
 Tearing Down class
-
-
-====================================================== 2 passed in 0.02s =======================================================
-
+====================================================== 2 passed in 0.01s =======================================================
 ```
