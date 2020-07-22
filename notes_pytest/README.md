@@ -52,3 +52,27 @@ Teardown B
 Teardown A
 ==================================================== 2 passed in 0.01s =====================================================
 ```
+
+## Test Fixtures - optional 'params' argument
+```bash
+===> pytest -v -s test_fixtures_params.py 
+=================================================== test session starts ====================================================
+platform linux -- Python 3.8.2, pytest-5.4.3, py-1.9.0, pluggy-0.13.1 -- /home/a1t20v21/.pyenv/tddpython/bin/python3
+cachedir: .pytest_cache
+rootdir: /home/a1t20v21/workspace/tdd_python/notes_pytest
+collected 3 items                                                                                                          
+
+test_fixtures_params.py::test1[1] 
+Setup Data
+<function setup_data at 0x7faa221a9820>
+PASSED
+test_fixtures_params.py::test1[2] 
+Setup Data
+<function setup_data at 0x7faa221a9820>
+PASSED
+test_fixtures_params.py::test1[3] 
+Setup Data
+<function setup_data at 0x7faa221a9820>
+PASSED
+==================================================== 3 passed in 0.01s =====================================================
+```
